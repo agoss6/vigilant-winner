@@ -1,32 +1,53 @@
+.contents{
+  overflow: scroll;
+  position: relative;
+  top: -70px;
+}
+
 body {
+  text-align: center;
   background-color: black;
   color: white;
   font-size: 20px;
+  position: relative;
+  top: 0;
+  bottom: 0;
 
+}
+
+p{
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 h1 {
   margin-left: 20px;
 }
 
-body {
-  text-align: center;
+.title_name{
+  position: relative;
+  top: 200px;
+
 }
 
-.separator {
-  position: fixed;
-  top: 0;
+.sound_bars {
+  position: relative;
+  top: -75px;
   right: 0;
   bottom: 0;
   left: 0;
-  overflow: hidden;
   z-index: -100;
 }
-.separator_video {
+.sound_bars_video {
   position: relative;
   opacity: 0.4;
-  top: 50px;
+  top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 75%;
+  height: 75%;
+}
+
+.copyright{
+  font-size: 10px;
+
 }
