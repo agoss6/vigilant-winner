@@ -40,7 +40,7 @@ h1 {
 }
 .sound_bars_video {
   position: relative;
-  opacity: 0.4;
+  opacity: 0.6;
   top: 0;
   left: 0;
   width: 75%;
@@ -49,5 +49,4 @@ h1 {
 
 .copyright{
   font-size: 10px;
-
 }
